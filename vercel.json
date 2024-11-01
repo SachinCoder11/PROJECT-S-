@@ -13,7 +13,7 @@
       }
     ],
     "env": {
-      "YOUR_ENV_VARIABLE": "your_value"
+      "new": "12334"
     },
     "regions": ["all"]
   }
