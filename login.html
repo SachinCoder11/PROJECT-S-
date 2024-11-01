@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="signup.php" method="POST">
+            <h2>Sign Up</h2>
+            <label for="username">Username:</label>
+            <input type="text" name="username" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+
+            <!-- Google reCAPTCHA Widget -->
+            <div class="g-recaptcha" data-sitekey="6LfBfHEqAAAAAHntXYBCSJaTmjQTAHyggb49OP4C"></div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>
